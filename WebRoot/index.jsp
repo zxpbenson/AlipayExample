@@ -19,6 +19,7 @@
     <a target="_blank" href="batch_trans_notify_no_pwd">batch_trans_notify_no_pwd</a></br>
     <a target="_blank" href="bptb_file_query">bptb_file_query</a></br>
     <a target="_blank" href="bptb_pay_file_confirm">bptb_pay_file_confirm</a></br>
+    <a target="_blank" href="bptb_pay_file">bptb_pay_file</a></br>
     <a target="_blank" href="bptb_result_file">bptb_result_file</a></br>
     <a target="_blank" href="bptb_user_confirm">bptb_user_confirm</a></br>
     <a target="_blank" href="notify_verify/index.jsp?verify_id=">notify_verify/index.jsp?verify_id=</a></br>

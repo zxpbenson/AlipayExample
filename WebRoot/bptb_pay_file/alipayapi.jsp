@@ -57,6 +57,8 @@
 		String notify_url = BensonConfig.NotifyServer + "/batch_trans_notify_no_pwd/notify_url.jsp";
 		sParaTemp.put("notify_url", notify_url);
 		
+        sParaTemp.put("bussiness_type", "T0");//T0或T1，大小写不限，不填则默认为T1。T0：当天到账 T1：隔天到账
+		
 		//建立请求
 		String sHtmlText = AlipaySubmit.buildRequest("bptb_pay_file", bptb_pay_file, sParaTemp);
 		out.println(sHtmlText);
